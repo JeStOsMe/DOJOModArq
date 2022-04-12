@@ -11,9 +11,10 @@ public class Producto {
 
     private String nombre;
 
-    private Long precio;
+    private Long precio;    
 
-    public Producto(String nombre, Long precio) {
+    public Producto(String id, String nombre, Long precio) {
+        this.id = id;
         this.nombre = nombre;
         this.precio = precio;
     }
