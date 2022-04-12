@@ -3,7 +3,7 @@ package com.dojo.productos.models;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document
+@Document(collection = "producto")
 public class Producto {
     
     @Id
